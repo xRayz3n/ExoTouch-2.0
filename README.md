@@ -31,3 +31,10 @@ The assembly for each hand is as follows:
 - Leading cog (5x)
 
 - Finger ring (1x per finger, will need to select correct size to fit)
+
+# SteamVR compatibility
+This project uses the OpenGloves OpenVR driver for compatibility with SteamVR, which is downloadable on Steam:
+https://store.steampowered.com/app/1574050/OpenGloves/
+
+Source code available on GitHub:
+https://github.com/LucidVR/opengloves-driver
