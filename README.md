@@ -19,14 +19,16 @@ STEP files for 3D printing are located in the 3d-models folder.
 The assembly for each hand is as follows:
 
 - Exoskeleton (either v2 or v3)
+- Arduino Nano / ESP32 - 6€
 
+- AS5600 encoder (x5) - 25€
 - Base (5x)
 - Finger flex (5x)
 - Rack (5x)
+- Rotor (5x)
 - Rotor magnet (5x)
 - Servo fixture (5x)
 - Stator (5x)
-- Rotor (5x)
 - Leading rack (5x)
 - Leading cog (5x)
 
