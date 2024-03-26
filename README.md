@@ -20,6 +20,7 @@ The assembly for each hand is as follows:
 
 - Exoskeleton (either v2 or v3)
 - Arduino Nano / ESP32 - 6€
+- I2C Multiplexer - 9€
 
 - AS5600 encoder (x5) - 25€
 - Base (5x)
