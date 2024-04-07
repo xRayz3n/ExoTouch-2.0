@@ -23,6 +23,7 @@ The assembly for each hand is as follows:
 - I2C Multiplexer - 9€
 
 - AS5600 encoder (x5) - 25€
+- MG90S micro Servomotor (x5) - 25€
 - Base (5x)
 - Finger flex (5x)
 - Rack (5x)
