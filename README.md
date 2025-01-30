@@ -32,7 +32,8 @@ The assembly for each hand is as follows:
 <p align="center">
 <img src="visuals/Encoder_assembly.png" alt="Encoder assembly" height="400">
 </p>
-- AS5600 encoder (x5) - 
+
+- AS5600 encoder (x5)
 - Rotor (5x)
 - Rotor magnet (5x)
 - Stator (5x)
@@ -41,6 +42,7 @@ The assembly for each hand is as follows:
 <p align="center">
 <img src="visuals/Module_assembly.png" alt="Module assembly" height="400">
 </p>
+
 - MG90S micro Servomotor (x5) - 25€
 - Base (5x)
 - Finger flex (5x)
@@ -48,7 +50,6 @@ The assembly for each hand is as follows:
 - Servo fixture (5x)
 - Leading rack (5x)
 - Leading cog (5x)
-
 - Finger ring (1x per finger, will need to select correct size to fit)
 
 # SteamVR compatibility
