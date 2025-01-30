@@ -1,5 +1,6 @@
 #include "AS5600.h"
 #include "Wire.h"
+
 // Requires RunningMedian library by Rob Tillaart
 #if ENABLE_MEDIAN_FILTER
   #include <RunningMedian.h>
@@ -19,6 +20,7 @@ int maxFingers[5] = {-10000, -10000, -10000, -10000, -10000};
 int minFingers[5] = {10000, 10000, 10000, 10000, 10000};
 
 void setupInputs(){
+  Wire.setClock(100000);
 
   for (int i = 0; i < 5; i++) {
   as5600[i].begin(4);  //  set direction pin.
@@ -51,8 +53,8 @@ int* getFingerPositions(bool calibrating, bool reset){
   int rawFingers[5];
 for (int i = 0; i < 5; i++) {
 
-    selectChannel(i); // Select channel for the i-th AS5600 sensor
-    rawFingers[i] = as5600[i].getCumulativePosition();
+    selectChannel(4-i); // Select channel for the i-th AS5600 sensor
+    rawFingers[i] = as5600[i].getCumulativePosition(); // inverse finger position
 
 }
 
@@ -96,10 +98,10 @@ for (int i = 0; i < 5; i++) {
     else {
       calibrated[i] = 1023 / 2;
     }
-    // Serial.print(rawFingers[i]);
-    // Serial.print(" ");
+    //  Serial.print(rawFingers[i]);
+    //  Serial.print(" ");
   }
-  // Serial.println();
+  //  Serial.println();
   return calibrated;
 }
 

@@ -74,6 +74,7 @@ void loop() {
         //This check is a temporary hack to fix an issue with haptics on v0.5 of the driver, will make it more snobby code later
         if(String(received).length() >= 10) {
            decodeData(received, hapticLimits);
+           
            writeServoHaptics(hapticLimits); 
         }
       }

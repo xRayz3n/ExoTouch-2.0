@@ -51,4 +51,5 @@ void writeServoHaptics(int* hapticLimits){
   if(hapticLimits[4] >= 0) pinkyServo.write(scaledLimits[4]);
 }
 
+
 #endif
