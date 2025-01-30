@@ -4,6 +4,7 @@
 </p>
 
 ExoTouch 2.0 - Firmware and 3D Printer Files
+<br>
 This repo contains the arduino firmware as well as the STEP files for prototype 1 ExoTouch 2.0. This is a finger tracking glove that allows you to use your hands in VR.
 
 # Firmware
