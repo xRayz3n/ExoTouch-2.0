@@ -15,7 +15,7 @@ Open the firmware files located in the firmware/lucidgloves-firmware folder. By 
 
 # Hardware
 <p align="center">
-<img src="visuals/Full_assembly.png" alt="Full assembly" height="300">
+<img src="visuals/Full_assembly.png" alt="Full assembly" height="400">
 </p>
 STEP files for 3D printing are located in the 3d-models folder.
 
