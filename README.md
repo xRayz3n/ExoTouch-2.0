@@ -14,6 +14,7 @@ Open the firmware files located in the firmware/lucidgloves-firmware folder. By 
 - Bluetooth Serial (On ESP32 boards)
 
 # Hardware
+![Alt text](visuals\Full assembly.png)
 STEP files for 3D printing are located in the 3d-models folder.
 
 The assembly for each hand is as follows:
