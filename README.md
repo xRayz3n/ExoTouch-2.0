@@ -1,4 +1,7 @@
 # ExoTouch-2.0
+<p align="center">
+<img src="visuals/Demo_gif.gif" alt="Full assembly" height="400">
+</p>
 ExoTouch 2.0 - Firmware and 3D Printer Files
 This repo contains the arduino firmware as well as the STEP files for prototype 1 ExoTouch 2.0. This is a finger tracking glove that allows you to use your hands in VR.
 
@@ -21,19 +24,28 @@ STEP files for 3D printing are located in the 3d-models folder.
 
 The assembly for each hand is as follows:
 
-- Exoskeleton (either v2 or v3)
+- Exoskeleton (either leftie or rightie)
 - Arduino Nano / ESP32 - 6€
 - I2C Multiplexer - 9€
 
-- AS5600 encoder (x5) - 25€
+## Encoder module
+<p align="center">
+<img src="visuals/Encoder_assembly.png" alt="Encoder assembly" height="400">
+</p>
+- AS5600 encoder (x5) - 
+- Rotor (5x)
+- Rotor magnet (5x)
+- Stator (5x)
+
+## Base module
+<p align="center">
+<img src="visuals/Module_assembly.png" alt="Module assembly" height="400">
+</p>
 - MG90S micro Servomotor (x5) - 25€
 - Base (5x)
 - Finger flex (5x)
 - Rack (5x)
-- Rotor (5x)
-- Rotor magnet (5x)
 - Servo fixture (5x)
-- Stator (5x)
 - Leading rack (5x)
 - Leading cog (5x)
 
